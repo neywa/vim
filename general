@@ -14,7 +14,7 @@ filetype indent on
 syntax on
 
 " Setting the collor scheme
-colorscheme molokai
+colorscheme habamax
 
 set cursorline " Highlight cursor line underneath the cursor horizontally.
 set incsearch " While searchng through a file incrementally highlight matching characters as you type.
