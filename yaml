@@ -26,7 +26,7 @@ set showmatch " Show matching words during a search.
 set hlsearch " Use highlighting when doing a search.
 
 " YAML editor block here
-call plug#begin('/home/roman/.vim/plugged')
+call plug#begin('~/.vim/plugged')
 Plug 'Yggdroot/indentLine' 
 call plug#end()
 
