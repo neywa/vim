@@ -27,7 +27,10 @@ set hlsearch " Use highlighting when doing a search.
 
 " YAML editor block here
 call plug#begin('~/.vim/plugged')
-Plug 'Yggdroot/indentLine' 
+Plug 'Yggdroot/indentLine', {'for': 'yaml'} 
+Plug 'pedrohdz/vim-yaml-folds', {'for': 'yaml'}
 call plug#end()
 
+let g:indentLine_char = '⦙'
 set backspace=indent,eol,start "Fixing the missing backspace function in edit mode.
+set foldlevelstart=20 "Start with an unfolded file (vim-yaml-folds)
